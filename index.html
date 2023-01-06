@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Link to Boostrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+  <!-- Link to JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Muscle Quiz Game</title>
+</head>
+
+<body>
+  <div id="seconds"></div>
+  <div class="container center-block">
+    <div id="quizQuestions">
+      <h1>Muscle Quiz Game</h1>
+    </div>
+    <br>
+    <div id="quizChoices">
+      <div class="selection" id="A"></div>
+      <div class="selection" id="B"></div>
+      <div class="selection" id="C"></div>
+      <div class="selection" id="D"></div>
+    </div>
+    <div id=result></div>
+    <br>
+    <div id="startButton">
+      <button type="button" id="startQuiz" class="btn btn-outline-dark btn-lg btn-block">Start Quiz</button>
+    </div>
+  </div>
+  <!-- Link to External JavaScript -->
+  <script src="quiz-questions.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
