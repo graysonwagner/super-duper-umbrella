@@ -1,2 +1,2 @@
 # super-duper-umbrella
-password generator assignment 3
+Password generator assignment 3
